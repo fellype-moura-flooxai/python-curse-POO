@@ -16,7 +16,7 @@
 # suprimidas.
 #
 # Ex:
-# with open('aula149.txt', 'w') as arquivo:
+# with open('aula28.txt', 'w') as arquivo:
 #     ...
 class MyOpen:
     def __init__(self, caminho_arquivo, modo):
@@ -43,7 +43,7 @@ class MyOpen:
         # return True  # Tratei a exceção
 
 
-with MyOpen('aula149.txt', 'w') as arquivo:
+with MyOpen('aula28.txt', 'w') as arquivo:
     arquivo.write('Linha 1\n')
     arquivo.write('Linha 2\n', 123)
     arquivo.write('Linha 3\n')
